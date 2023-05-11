@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Django Webpack Template</title>
 
-    <script src="{% static 'bundle.js' %}"></script>
 </head>
 <body>
     <p id="message">Hello</p>
-
+    
     <button hx-get="{% url 'index' %}" hx-trigger="click" hx-swap="outerHTML">
         Click me
     </button>
-
+    
     <hr /> 
-
+    
     <div x-data="{showMe: false, msg: 'Hello from Alpine'}">
-      <p x-show="showMe" x-text="msg"></p>
-      <button @click="showMe = !showMe">Toggle</button>
+        <p x-show="showMe" x-text="msg"></p>
+        <button @click="showMe = !showMe">Toggle</button>
     </div>
+    <script src="{% static 'bundle.js' %}"></script>
 </body>
 </html>
