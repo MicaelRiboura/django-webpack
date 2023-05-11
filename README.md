@@ -12,3 +12,8 @@ Projeto desenvolvido baseado nos seguinte tutorial:
 - [DJANGO AND WEBPACK - EXTERNAL LIBRARIES, LOADERS AND STYLESHEETS](https://bugbytes.io/posts/django-and-webpack-external-libraries-loaders-and-stylesheets/)
 
 - [Django and Webpack - External Packages (HTMX and Alpine.js) CSS Loaders and Webpack Optimization](https://www.youtube.com/watch?v=f1H6fyw2s-s&ab_channel=BugBytes)
+
+
+## Extra
+
+- Configuração do webpack com múltiplos apps do Django
