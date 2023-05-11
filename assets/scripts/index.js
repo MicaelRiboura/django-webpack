@@ -1,4 +1,5 @@
 import Alpine from 'alpinejs'
+import '../styles/button-styles.css'
 
 // Add Alpine object to the window scope
 window.Alpine = Alpine
